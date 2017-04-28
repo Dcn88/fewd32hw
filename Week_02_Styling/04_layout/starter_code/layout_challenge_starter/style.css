@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+		font-size: 18px;
+}
+
+.box {
+	border: 1px solid black;
+	background: #ccc;
+	padding: 30px;
+	margin: 1rem;
+}
+
+.contentarea {
+	background: blue;
+	padding: 10px;
+	overflow: auto;
+	margin: 0 16px;
+}
+
+.content_main {
+	float: left;
+	width: 53%;
+	
+
+}
+
+.nav {
+	float: left;
+	width: 19%;
+}
+.sidebar {
+	float: left;
+	width: 19%;
+}
+
+.ftr {
+	clear: both;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+

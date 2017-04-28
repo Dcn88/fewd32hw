@@ -1,0 +1,29 @@
+body {
+  background: #F6F6F6;
+
+  border-top: 5px solid #222222;
+  border-bottom: 5px solid #222222;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+p {
+	font-family: Georgia, Times, serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #05080C;
+}
+
+td {
+	background: #eeeeee;
+}
+th {
+	background: #222222;
+	color: white;
+}
+
+img {
+	float: right;
+	margin-left: 20px;
+}
+
