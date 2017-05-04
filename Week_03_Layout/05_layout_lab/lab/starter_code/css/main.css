@@ -1,0 +1,174 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+  font-family: 'Lato', sans-serif;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: white;
+	color: #444;
+	font-weight: 300;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+.siteTop h1 {
+	float: left;
+	font-weight: 300;
+	color: rgb(221, 0, 0);
+	font-size: 54px;
+
+	
+}
+
+.siteTop p {
+	font-size: 27px;
+	display: inline;
+	/*line-height: 40.5px;
+	margin-bottom: 13.5px;*/
+	margin-bottom:.5em;
+	font-size:1.5em;
+	padding-right: 100px;
+	padding-top: 20px;
+	width: auto;
+	color: #888;
+
+	display: inline;
+	float: right;
+}
+.siteTop {
+	overflow: hidden;
+	line-height: .5px;
+}
+
+.container-top {
+	max-width: 671px;
+}
+.navigation li, .ftr li{
+	display: inline-block;
+
+
+}
+
+.navigation {
+	overflow: hidden;
+
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation a {
+	font-size: 22.5px;
+	background-size:auto;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.25em;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.navigation li {
+	overflow: hidden;
+	width: 16.1111%;
+	margin: 0;
+	padding: 0;
+	margin-right: 1px;
+}
+.navigation a:hover {
+	color: white;
+	background: #900;
+}
+
+
+.container-side {
+	float: right;
+	/*max-width: 275px;*/
+	max-width: 320px;
+	overflow: hidden;
+	
+}
+
+.container-blog {
+	float: left;
+	/*max-width: 640px;*/
+	display: block;
+	overflow: hidden;
+	max-width: 610px;
+
+}
+
+.container-blog h1 {
+	font-size: 36px;
+	font-weight: 300;
+	color: #CCC;
+	height: 54px;
+	display: block;
+
+}
+
+.container-blog h2 {
+	font-size: 36px;
+	font-weight: 300;
+	color: black;
+}
+.container-blog article {
+	border-bottom: .5px solid gray;
+	font-size: 27px;
+}
+
+.container-body {
+	overflow: hidden;
+
+
+}
+
+.container-side img {
+	display: block;
+	border-bottom: .5px solid gray;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-top: .5px solid gray;
+
+}
+
+.container-side a:hover {
+	color: #900;
+}
+	
+
+.container-side a {
+	text-decoration: none;
+
+
+}
+.container-side aside {
+
+	font-size: 27px;
+}
+
+.container-side h1 {
+	font-size: 36px;
+}
+
+.container-side {
+	padding-top: 140px;
+
+}
+.container-body img {
+	max-width: 100%;
+
+}
