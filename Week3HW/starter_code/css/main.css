@@ -1,0 +1,199 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.topBanner {
+	background-color: black;
+	padding: 20px;
+	overflow: auto;
+}
+
+.topBanner h1 {
+	color: yellow;
+	font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.topBanner a {
+	text-decoration: none;
+	color: white;
+}
+
+.topBanner li {
+	display: inline-block;
+	color: white;
+}
+
+.quote {
+	border-top: 2px solid yellow;
+	background-color: rgb(211,211,211);
+	padding: 20px;
+	margin: 0;
+}
+
+.quote h1 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+}	
+
+.mainNote {
+	background-image: url(../images/coworking.jpg);
+	/*background-size: 100%;*/
+	overflow: hidden;
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	padding: 20px;
+}
+
+.noteRight {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 333px;
+	float: right;
+	background-color: rgba(255,255,255,0.8);
+	padding: 30px;
+}
+
+.noteRight h1 {
+	margin: 0;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    text-align: center;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    background-color: rgb(211, 211, 211);
+}
+
+.btn-color {
+	background-color: yellow;
+}
+
+.noteRight h1 {
+	color: blue;
+	font-size: 24px;
+	font-weight: 700;
+
+}
+
+.noteRight p {
+	margin-top: 5px;
+	margin-bottom: 16px;
+}
+
+.mainSignup {
+	background-color: white;
+ 	overflow:hidden;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 10px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 
+}
+
+.mainSignup h1 {
+	color: blue;
+	font-size: 18.72px;
+	margin: 0;
+	
+}
+
+.mainSignup p {
+	font-size: 16px;
+	margin-bottom: 16px;
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.leftProfile {
+	float: left;
+	max-width: 33%;
+	padding-left: 20px;
+ 	padding-right: 20px;
+ 	border-right: 1.5px solid rgb(211,211,211);
+
+}
+
+.middleDeveloper {
+	max-width: 33%;
+	display: inline-block;
+	padding-left: 20px;
+ 	padding-right: 20px;
+ 	border-right: 1.5px solid rgb(211,211,211);
+	
+}
+
+.rightDesigner {
+	float: right;
+	max-width: 33%;
+	padding-left: 20px;
+ 	padding-right: 20px;
+}
+
+
+.ftr {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+
+
+}
+
+.ftr p {
+	margin: 0;
+}
+
+.delete {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.underline {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+em {
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.toplinks li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin-right: 20px;
+}
+
+.toplinks {
+	float: right;
+}
+
+body {
+	background-color: rgb(170, 170, 170);
+
+}
